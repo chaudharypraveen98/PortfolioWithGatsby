@@ -3,30 +3,8 @@ body{
   padding: 0;
   margin: 0;
   background-color: #364f6b;
-}
-body::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  height: 100%;
-  width: 100%;
-  clip-path: circle(30% at 10% 10%);
-  -webkit-clip-path: circle(30% at 10% 10%);
-  background: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );;
-
-}
-
-body::after{
-  position: absolute;
-  top: 0;
-  content: "";
-  height: 100%;
-  width: 100%;
-  left: 0;
-  -webkit-clip-path: circle(40% at right 90%);
-  clip-path: circle(40% at right 90%);
-  background: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 a {
   color: inherit;
@@ -35,8 +13,6 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .container {
@@ -60,7 +36,6 @@ a {
   font-size: 24px;
   text-align: center;
   z-index: 1;
-  position: absolute;
-  bottom: 0;
+  position: relative;
   padding: 20px 0px;
 }

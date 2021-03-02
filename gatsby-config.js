@@ -20,7 +20,15 @@ module.exports = {
         path: `${__dirname}/src/data/bg`, // wherever background images are stored
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `ProjectData`,
+        path: `${__dirname}/src/data`, // wherever background images are stored
+      },
+    },
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
   ]
 }

@@ -6,14 +6,17 @@
     background-image: url(../data/bg/bg_1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 400px;
+    z-index: 1;
 }
 .bannerHead{
     position: relative;
     top: 50%;
-    font-size: 170px!important;
+    font-size: 80px!important;
     width: 100%;
     text-transform: uppercase;
     color: seashell;
     mix-blend-mode: difference;
+    text-align: center;
+    z-index: 3;
 }

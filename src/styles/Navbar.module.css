@@ -8,15 +8,19 @@
 }
 .navBrand{
     font-size: 24px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Monoton', cursive !important;
 }
 .navUl{
     display: flex;
+    justify-content: right;
     flex-direction: row;
+    flex-wrap: nowrap;
     margin: 0px;
     align-items: center;
+    width: 100%;
 }
 .navUl li{
     padding: 1% 1.5%;
+    margin: 0px 10px;
     list-style: none;
 }
