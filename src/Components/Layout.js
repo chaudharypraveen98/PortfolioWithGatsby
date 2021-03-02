@@ -1,17 +1,17 @@
-import styles from "../styles/Home.module.css";
 import Navbar from "../Components/Navbar";
 import React from "react";
-import { Helmet } from 'react-helmet';
+import "../styles/global.css";
+import DefaultHelmet from './DefaultHelmet';
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Helmet />
+      <DefaultHelmet />
       <Navbar />
-      <div className={styles.container}>
-        <main className={styles.main}>{children}</main>
+      <div className="container">
+        <main className="main">{children}</main>
       </div>
-      <div className={styles.footerContainer}>Copyrights 2021 Binary Beast</div>
+      <div className="footerContainer">Copyrights 2021 @BinaryBeast</div>
     </>
   );
 };

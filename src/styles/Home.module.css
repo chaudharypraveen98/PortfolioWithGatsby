@@ -1,22 +1,19 @@
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  z-index: 1;
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    background-image: url(../data/bg/bg_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 700px;
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  z-index: 1;
-}
-.footerContainer{
-  width: 100%;
-  background-color: black;
-  color: white;
-  font-size: 24px;
-  text-align: center;
+.bannerHead{
+    position: relative;
+    top: 50%;
+    font-size: 170px!important;
+    width: 100%;
+    text-transform: uppercase;
+    color: seashell;
+    mix-blend-mode: difference;
 }
