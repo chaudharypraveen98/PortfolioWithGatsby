@@ -1,12 +1,16 @@
 .singleProject{
-    padding: 10px;
+    padding-top:80px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 20px 20px;
     text-align: center;
     width:360px;
     border: rgba(255, 255, 255, 0.5) 2px solid;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .ProjectContainer{
     display: flex;
@@ -14,4 +18,45 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    z-index: 1;
+}
+.projectSection{
+    background-image: radial-gradient(circle at center right, rgb(138, 138, 138),rgb(251, 251, 251));
+}
+.ProjectContainer::after{
+    position: absolute;
+    top:300px;
+    left: 0px;
+    clip-path: circle(25% at right 50%);
+    background-image: linear-gradient( 109.6deg,  rgba(116,18,203,1) 11.2%, rgba(230,46,131,1) 91.2% );  
+    content: "";
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.loadMoreButton{
+    color:white;
+    padding: 10px 12px;
+    border-radius: 25px;
+    outline: none;
+    border-style: none;
+    background-color: #581b98;
+    margin: 12px 0px;
+}
+.buttonContainer{
+    text-align: center;
+}
+.singleProjectTitle{
+    color: #581b98;
+}
+.projectNumber{
+    position: absolute;
+    top: 0px;
+    right:30px;
+    margin: 0px;
+    font-size: 92px;
+    color:rgba(243, 85, 142, 0.3);
+}
+.projectDesc{
+    color:#f3558e;
 }

@@ -22,12 +22,14 @@ const ProjectList = ({ projects }) => {
     setNext(next + postsPerPage)
   }
   return (
-    <div className={styles.ProjectContainer}>
-      {postsToShow.map(project => {
-        return <Project project={project} key={project.node.id} />
-      })}
-      <div>
-        <button onClick={handleShowMorePosts} className="load-btn">
+    <div className={styles.projectSection}>
+      <div className={styles.ProjectContainer}>
+        {postsToShow.map(project => {
+          return <Project project={project} key={project.node.id} />
+        })}
+      </div>
+      <div className={styles.buttonContainer}>
+        <button onClick={handleShowMorePosts} className={styles.loadMoreButton}>
           Load more
         </button>
       </div>
