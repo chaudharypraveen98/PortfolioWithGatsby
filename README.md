@@ -6,6 +6,9 @@
 
 _This is the portfolio which contains all the github projects with title, description, stars, forks, last-updated and much more._
 
+### Preview : -
+<img src="./gatsby.JPG" alt="desktop preview"> 
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
@@ -40,9 +43,6 @@ _This is the portfolio which contains all the github projects with title, descri
 3. gatsby-json-transformer for converting the json data into gatsby objects with the help of gatsby source filesystem and graphql queries.
 4. React hooks to manage the state of projects displayed.
 
-
-### Preview : -
-<img src="./gatsby.JPG" alt="desktop preview"> 
 
 ## 🧐 What's inside?
 
