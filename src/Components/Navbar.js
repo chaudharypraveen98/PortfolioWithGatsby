@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import styles from "../styles/Navbar.module.css"
 import React from "react"
 
+// gatsby uses the link to instead of link href
 const Navbar = () => {
   return (
     <nav className={styles.navbarContainer}>
