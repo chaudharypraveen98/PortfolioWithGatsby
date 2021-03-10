@@ -42,7 +42,7 @@ _This is the portfolio which contains all the github projects with title, descri
 
 
 ### Preview : -
-<img src="./public/gatsby.JPG" alt="desktop preview"> 
+<img src="./gatsby.JPG" alt="desktop preview"> 
 
 ## 🧐 What's inside?
 
